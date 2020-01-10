@@ -66,13 +66,16 @@ align-items:left;
 
 .pjHouse{
   display:flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin:10px;
 }
+.pjImgHouse{
+  margin:10px;
+}
 .pjPic{
-  height:200px;
-  width:240px;
+  height:250px;
+  width:320px;
 }
 .pjTitle{
   background: white;
