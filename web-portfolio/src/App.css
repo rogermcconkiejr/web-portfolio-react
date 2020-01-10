@@ -28,12 +28,15 @@
 .name1{
 margin-top: 2%;
 font-size: 2rem;
-color:white
+color:white;
+cursor: default;
 }
 .role1{
   margin-top:2%;
   color:white;
   font-size:1.2rem;
+  cursor: default;
+
 }
 
 .hr1{
@@ -47,42 +50,56 @@ color:white
 }
 .aboutDiv{
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
 }
 .aboutImg{
-  height:500px;
-  width:400px !important;
+  height:175px;
+  width:1000px !important;
+  margin-top:20px;
 }
 .aboutTitle{
-font-size:1.7rem;
+font-size:2rem;
 color:white;
+margin-top:10px;
+cursor: default;
 }
 .aboutText{
 color:white;
-align-items:left;
+font-size:1.3rem;
+margin:20px;
 }
 
 /* START PORTFOLIO CSS */
+.pjWrapper{
+  padding-right:6%;
+  padding-left:6%;
 
+}
 .portTitle{
   color:white;
   font-size:1.7rem;
+  margin-top:20px;
+  cursor: default;
 }
 .pjHouse{
   display:flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin:10px;
+  margin-bottom:40px;
+  margin-top:20px;
 }
 .pjImgHouse{
   margin:10px;
   background: white;
   display:flex;
   flex-direction: column;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  transition: all .2s ease-in-out;
 }
+.pjImgHouse:hover { transform: scale(1.1); }
 .pjPic{
-  height:250px;
-  width:320px;
+  height:200px;
+  width:22vw;
 }
 .pjaTitle{
   color:black;

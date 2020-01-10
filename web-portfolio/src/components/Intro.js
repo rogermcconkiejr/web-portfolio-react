@@ -1,11 +1,12 @@
 import React from 'react';
 import rogerpic from '../Assets/rogerpic.jpg';
+import proPic6 from '../Assets/proPic6.jpg'
 import { SocialIcon } from 'react-social-icons';
 
 function Intro() {
     return (
         <div className="introDiv">
-                <img className="selfie1" src={rogerpic} alt="This is a picture of Roger" />
+                <img className="selfie1" src={proPic6} alt="This is a picture of Roger" />
                 <div className="name1">Roger McConkie Jr.</div>
                 <div className="role1">Fullstack Engineer</div>
                 <hr className="hr1"/>
