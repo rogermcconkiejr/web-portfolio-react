@@ -5,8 +5,8 @@ import './App.css';
 import Header from './components/Header';
 import Intro from './components/Intro';
 import About from './components/About';
-import Resume from './components/Resume';
 import ProjectHouse from './components/ProjectHouse';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Intro />
         <ProjectHouse />
         <About />
-        <Resume />
+        <Footer />
       </Router>
     </div>
   );

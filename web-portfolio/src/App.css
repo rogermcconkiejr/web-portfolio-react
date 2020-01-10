@@ -16,8 +16,9 @@
   color:white;
   margin-top:3%;
   font-size:1.1rem;
-
+  cursor: default;
 }
+
 .selfie1{
   /* make sure to find a square pic to fill this */
   margin-top:4%;
@@ -116,3 +117,8 @@ margin:20px;
 }
 
 /* END PORTFOLIO CSS */
+
+.socialLinksDivFoot{
+  display: flex;
+  justify-content: flex-end;
+}

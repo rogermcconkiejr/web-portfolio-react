@@ -10,7 +10,7 @@ import githubcard from "../Assets/githubcard.png"
 
 function ProjectHouse() {
     return (
-        <div className="pjWrapper">
+        <div className="pjWrapper" id="portfolio">
             <div className="portTitle">Portfolio</div>
             
             <div className="pjHouse">
