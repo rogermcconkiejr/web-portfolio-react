@@ -72,13 +72,13 @@ align-items:left;
 }
 .pjImgHouse{
   margin:10px;
+  background: white;
 }
 .pjPic{
   height:250px;
   width:320px;
 }
 .pjTitle{
-  background: white;
   padding:10px;
   position:relative;
   top:-3px;
