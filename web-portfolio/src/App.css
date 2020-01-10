@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background: #134E5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.navBar{
+  display:flex;
+  justify-content:space-evenly;
+  
+
+}
+.styledLink{
+  text-decoration:none;
+  color:white;
+  margin-top:3%;
+  font-size:1.1rem;
+
+}
+.selfie1{
+  /* make sure to find a square pic to fill this */
+  margin-top:4%;
+  height:180px;
+  width:180px;
+  border-radius:100%;
+}
+.name1{
+margin-top: 2%;
+font-size: 2rem;
+color:white
+}
+.role1{
+  margin-top:2%;
+  color:white;
+  font-size:1.2rem;
+}
+
+.hr1{
+  margin-top:2%;
+  width:4%;
+  height:3px;
+  background-color:white;
+}
+.socialLink{
+  margin: 2% 10px 0px 10px;
+}
+.aboutDiv{
+  display:flex;
+  flex-direction:row;
+}
+.aboutImg{
+  height:500px;
+  width:400px !important;
+}
+.aboutTitle{
+font-size:1.7rem;
+color:white;
+}
+.aboutText{
+color:white;
+align-items:left;
+}
+
+/* START PORTFOLIO CSS */
+
+.pjHouse{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin:10px;
+}
+.pjPic{
+  height:200px;
+  width:240px;
+}
+.pjTitle{
+  background: white;
+  padding:10px;
+  position:relative;
+  top:-3px;
+}
+
+/* END PORTFOLIO CSS */
