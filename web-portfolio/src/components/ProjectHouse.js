@@ -14,48 +14,48 @@ function ProjectHouse() {
             <div className="portTitle">Portfolio</div>
             
             <div className="pjHouse">
-                <a href="https://designhubx.com/explore"><div className="pjImgHouse">
-                <img className="pjPic" src={designHub} alt="Design Hub"/>
-                <div className="pjTitle">"Design Hub"</div>
+                <div className="pjImgHouse">
+                <a href="https://designhubx.com/explore"><img className="pjPic" src={designHub} alt="Design Hub"/></a>
+                <a href="https://designhubx.com/explore" className="pjaTitle">Design Hub</a>
                 <div className="pjIcon">
                     <SocialIcon url="https://github.com/Lambda-School-Labs/designhub-be" bgColor="transparent" fgColor="black"/>
                 </div>
-                </div></a>
-                <a href="https://tipseaseui-roger.rogermcconkiejr.now.sh/"><div className="pjImgHouse">
-                <img className="pjPic" src={tipsease} alt="Tipsease"/>
-                <div className="pjTitle">"Tipsease"</div>
+                </div>
+                <div className="pjImgHouse">
+                <a href="https://tipseaseui-roger.rogermcconkiejr.now.sh/"><img className="pjPic" src={tipsease} alt="Tipsease"/></a>
+                <a href="https://tipseaseui-roger.rogermcconkiejr.now.sh/" className="pjaTitle">Tipsease</a>
                 <div className="pjIcon">
                     <SocialIcon url="https://github.com/bw-tipsease/TipsEaseUI-Roger" bgColor="transparent" fgColor="black"/>
                 </div>
-                </div></a>
-                <a href="https://diy-tracker.rogermcconkiejr.now.sh/login"><div className="pjImgHouse">
-                <img className="pjPic" src={diy} alt="DIY Project"/>
-                <div className="pjTitle">"DIY Tracker"</div>
+                </div>
+                <div className="pjImgHouse">
+                <a href="https://diy-tracker.rogermcconkiejr.now.sh/login"><img className="pjPic" src={diy} alt="DIY Project"/></a>
+                <a href="https://diy-tracker.rogermcconkiejr.now.sh/login" className="pjaTitle">DIY Tracker</a>
                 <div className="pjIcon">
                     <SocialIcon url="https://github.com/DIY-Tracker/Frontend-Developer/tree/master/diy-tracker" bgColor="transparent" fgColor="black"/>
                 </div>
-                </div></a>
-                <a href="https://nasa-photo-of-the-day.rogermcconkiejr.now.sh/"><div className="pjImgHouse">
-                <img className="pjPic" src={nasa} alt="NASA photo of the day project"/>
-                <div className="pjTitle">"NASA photo of the day"</div>
+                </div>
+                <div className="pjImgHouse">
+                <a href="https://nasa-photo-of-the-day.rogermcconkiejr.now.sh/"><img className="pjPic" src={nasa} alt="NASA photo of the day project"/></a>
+                <a href="https://nasa-photo-of-the-day.rogermcconkiejr.now.sh/" className="pjaTitle">NASA photo of the day</a>
                 <div className="pjIcon">
                     <SocialIcon url="https://github.com/rogermcconkiejr/nasa-photo-of-the-day" bgColor="transparent" fgColor="black"/>
                 </div>
-                </div></a>
-                <a href="https://guidr.now.sh/"><div className="pjImgHouse">
-                <img className="pjPic" src={guidr} alt="GUIDR Project"/>
-                <div className="pjTitle">"Guidr"</div>
+                </div>
+                <div className="pjImgHouse">
+                <a href="https://guidr.now.sh/"><img className="pjPic" src={guidr} alt="GUIDR Project"/></a>
+                <a href="https://guidr.now.sh/" className="pjaTitle">Guidr</a>
                 <div className="pjIcon">
                     <SocialIcon url="https://github.com/Build-Week-FT-Guidr/back-end" bgColor="transparent" fgColor="black"/>
                 </div>
-                </div></a>
-                <a href="https://githubcard.now.sh/"><div className="pjImgHouse">
-                <img className="pjPic" src={githubcard} alt="Git Hub Followers Project"/>
-                <div className="pjTitle">"Git Hub Followers"</div>
+                </div>
+                <div className="pjImgHouse">
+                <a href="https://githubcard.now.sh/"><img className="pjPic" src={githubcard} alt="Git Hub Followers Project"/></a>
+                <a href="https://githubcard.now.sh/" className="pjaTitle">Git Hub Followers</a>
                 <div className="pjIcon">
                     <SocialIcon url="https://github.com/rogermcconkiejr/React-Github-User-Card" bgColor="transparent" fgColor="black"/>
                 </div>
-                </div></a>
+                </div>
             </div>
             <hr /> 
         </div>
