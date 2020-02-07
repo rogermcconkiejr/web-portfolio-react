@@ -23,7 +23,7 @@ function Header() {
                 <ScrollLink
                 className="styledLink"
                 activeClass="active"
-                to="Portfolio"
+                to="contact"
                 spy={true}
                 smooth={true}
                 offset={-70}

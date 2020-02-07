@@ -122,3 +122,44 @@ margin:20px;
   display: flex;
   justify-content: flex-end;
 }
+
+/* Contact From CSS */
+.inputFields{
+  width:20vw;
+  height:20px;
+  border-radius:3px;
+  margin:20px;
+  border:1px solid black;
+  font-size:1.15rem;
+}
+.inputFields::placeholder{
+  font-size:1.15rem;
+}
+
+.contactTitle{
+  font-size:2rem;
+  color:white;
+  margin-top:20px;
+  cursor: default;
+}
+.mailing p{
+  color:white;
+  font-size:1.3rem;
+  margin:20px;
+}
+hr{
+  width:90vw;
+}
+
+.textAreaBox{
+  font-size:1rem;
+  border-radius: 3px;
+}
+.textAreaBox ::placeholder{
+  font-size:5rem;
+}
+
+.btn--submit{
+  background-color:white;
+  cursor: pointer;
+}

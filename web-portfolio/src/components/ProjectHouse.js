@@ -6,8 +6,7 @@ import tipsease from "../Assets/tipsease.png"
 import diy from "../Assets/diy.png"
 import nasa from "../Assets/nasa.png"
 import guidr from "../Assets/guidr.png"
-import githubcard from "../Assets/githubcard.png"
-
+import thunderball from "../Assets/thunderball.png"
 function ProjectHouse() {
     return (
         <div className="pjWrapper" id="portfolio">
@@ -19,6 +18,13 @@ function ProjectHouse() {
                 <a href="https://designhubx.com/explore" className="pjaTitle">Design Hub</a>
                 <div className="pjIcon">
                     <SocialIcon url="https://github.com/Lambda-School-Labs/designhub-be" bgColor="transparent" fgColor="black"/>
+                </div>
+                </div>
+                <div className="pjImgHouse">
+                <a href="https://thunderball-run.gettingonthe.net/"><img className="pjPic" src={thunderball} alt="Thunderball run Project"/></a>
+                <a href="https://thunderball-run.gettingonthe.net/" className="pjaTitle">Thunderball Run</a>
+                <div className="pjIcon">
+                    <SocialIcon url="https://github.com/awesome-mud" bgColor="transparent" fgColor="black"/>
                 </div>
                 </div>
                 <div className="pjImgHouse">
@@ -47,13 +53,6 @@ function ProjectHouse() {
                 <a href="https://guidr.now.sh/" className="pjaTitle">Guidr</a>
                 <div className="pjIcon">
                     <SocialIcon url="https://github.com/Build-Week-FT-Guidr/back-end" bgColor="transparent" fgColor="black"/>
-                </div>
-                </div>
-                <div className="pjImgHouse">
-                <a href="https://githubcard.now.sh/"><img className="pjPic" src={githubcard} alt="Git Hub Followers Project"/></a>
-                <a href="https://githubcard.now.sh/" className="pjaTitle">Git Hub Followers</a>
-                <div className="pjIcon">
-                    <SocialIcon url="https://github.com/rogermcconkiejr/React-Github-User-Card" bgColor="transparent" fgColor="black"/>
                 </div>
                 </div>
             </div>

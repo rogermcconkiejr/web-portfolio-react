@@ -13,7 +13,8 @@ function About() {
                     graduated from the University of Utah in 2018 with a bachelors of science degree in Economics 
                     with an emphasis in Statistical Analysis, along with minors in business and Spanish. Recently, 
                     I've worked as an operations analyst and as a market researcher. </div>
-                </div>
+                </div>       
+
         </div>
     )
 }

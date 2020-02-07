@@ -7,6 +7,7 @@ import Intro from './components/Intro';
 import About from './components/About';
 import ProjectHouse from './components/ProjectHouse';
 import Footer from './components/Footer';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Intro />
         <ProjectHouse />
         <About />
+        <Form />
         <Footer />
       </Router>
     </div>
