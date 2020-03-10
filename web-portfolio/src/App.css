@@ -163,3 +163,18 @@ hr{
   background-color:white;
   cursor: pointer;
 }
+
+.skillWrap{
+  padding-right:6%;
+  padding-left:6%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.icons{
+  padding:8%;
+}
+
+.icons p5{
+  color:white;
+}

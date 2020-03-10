@@ -8,6 +8,7 @@ import About from './components/About';
 import ProjectHouse from './components/ProjectHouse';
 import Footer from './components/Footer';
 import Form from './components/Form';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Header />
         <Intro />
         <ProjectHouse />
+        <Skills />
         <About />
         <Form />
         <Footer />

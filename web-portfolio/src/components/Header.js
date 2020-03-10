@@ -15,6 +15,14 @@ function Header() {
                 <ScrollLink
                 className="styledLink"
                 activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>Skills</ScrollLink>
+                <ScrollLink
+                className="styledLink"
+                activeClass="active"
                 to="about"
                 spy={true}
                 smooth={true}
