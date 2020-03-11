@@ -4,14 +4,6 @@ import { Link as ScrollLink } from 'react-scroll';
 function Header() {
     return (
         <div className="navBar">
-            <ScrollLink
-                className="styledLink"
-                activeClass="active"
-                to="portfolio"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}>Portfolio</ScrollLink>
                 <ScrollLink
                 className="styledLink"
                 activeClass="active"
@@ -20,6 +12,14 @@ function Header() {
                 smooth={true}
                 offset={-70}
                 duration={500}>Skills</ScrollLink>
+            <ScrollLink
+                className="styledLink"
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>Portfolio</ScrollLink>
                 <ScrollLink
                 className="styledLink"
                 activeClass="active"

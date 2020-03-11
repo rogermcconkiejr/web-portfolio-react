@@ -16,8 +16,8 @@ function App() {
       <Router>
         <Header />
         <Intro />
-        <ProjectHouse />
         <Skills />
+        <ProjectHouse />
         <About />
         <Form />
         <Footer />

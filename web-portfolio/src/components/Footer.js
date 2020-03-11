@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 
 function Footer() {
     return (
-        <div>
+        <div className="foot">
                 <div className="socialLinksDivFoot">
                     <SocialIcon className="socialLink" url="https://www.linkedin.com/in/roger-mcconkie-jr/" bgColor="transparent" fgColor="white"/>
                     <SocialIcon className="socialLink" url="https://github.com/rogermcconkiejr" bgColor="transparent" fgColor="white"/>

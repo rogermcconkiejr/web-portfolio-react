@@ -102,6 +102,10 @@ margin:20px;
   height:200px;
   width:22vw;
 }
+.pjImgHouse .stack-top{
+  z-index: 9;
+  margin: 20px;
+}
 .pjaTitle{
   color:black;
   text-decoration: none;
@@ -172,9 +176,16 @@ hr{
 }
 
 .icons{
-  padding:8%;
+  padding-top:4%;
+  padding-right:8%;
+  padding-left:8%;
+
 }
 
 .icons p5{
   color:white;
+}
+
+.foot{
+  padding-bottom:10px;
 }

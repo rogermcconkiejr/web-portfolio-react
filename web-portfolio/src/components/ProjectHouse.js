@@ -8,17 +8,18 @@ import nasa from "../Assets/nasa.png"
 import guidr from "../Assets/guidr.png"
 import thunderball from "../Assets/thunderball.png"
 function ProjectHouse() {
+
     return (
         <div className="pjWrapper" id="portfolio">
             <div className="portTitle">Portfolio</div>
             
             <div className="pjHouse">
                 <div className="pjImgHouse">
-                <a href="https://designhubx.com/explore"><img className="pjPic" src={designHub} alt="Design Hub"/></a>
-                <a href="https://designhubx.com/explore" className="pjaTitle">Design Hub</a>
-                <div className="pjIcon">
-                    <SocialIcon url="https://github.com/Lambda-School-Labs/designhub-be" bgColor="transparent" fgColor="black"/>
-                </div>
+                    <a href="https://designhubx.com/explore"><img className="pjPic" src={designHub} alt="Design Hub"/></a>
+                    <a href="https://designhubx.com/explore" className="pjaTitle">Design Hub</a>
+                        <div className="pjIcon">
+                            <SocialIcon url="https://github.com/Lambda-School-Labs/designhub-be" bgColor="transparent" fgColor="black"/>
+                        </div>
                 </div>
                 <div className="pjImgHouse">
                 <a href="https://thunderball-run.gettingonthe.net/"><img className="pjPic" src={thunderball} alt="Thunderball run Project"/></a>
