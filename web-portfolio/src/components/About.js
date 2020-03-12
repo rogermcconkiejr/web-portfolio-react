@@ -3,6 +3,7 @@ import mountBan from '../Assets/mountBan.jpg'
 function About() {
     return (
         <div className="aboutDiv" id="about">
+            <hr />
             <div className="aboutTitle">About Me</div> 
             <div className="mountWrap">
                 <img className="aboutImg" src={mountBan} alt="This is a picture of the Wasatch Mountain Range in Utah." />
