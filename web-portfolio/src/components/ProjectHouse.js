@@ -39,8 +39,8 @@ function ProjectHouse() {
                         <a href="https://thunderball-run.gettingonthe.net/" className="pjaTitle">Thunderball Run</a>
                         <hr className="hr2"/>
                         <p>Thunderball Run was built using Django and React.  State management was handled by context hooks.  
-                         I was able to contribute to the overall design of the application, along with designing and creating the login and register pages.
-                         I also implemented the back end of the application using Django with a team of engineers. 
+                         I was able to contribute to the overall design of the application, along with designing and creating the login and register pages.  Along with my team,
+                         I implemented the back end of the application using Django and added an audio feature.
                         </p> 
                         <div className="pjIcon">
                         <SocialIcon url="https://github.com/awesome-mud" bgColor="transparent" fgColor="white"/>
