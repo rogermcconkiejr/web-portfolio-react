@@ -46,6 +46,10 @@ cursor: default;
   height:3px;
   background-color:white;
 }
+.hr2{
+  background-color: white;
+  width:75%;
+}
 .socialLink{
   margin: 2% 10px 0px 10px;
 }
@@ -74,12 +78,14 @@ margin:20px;
 .pjWrapper{
   padding-right:6%;
   padding-left:6%;
+  margin-bottom:40px;
 
 }
 .portTitle{
   color:white;
   font-size:1.7rem;
   margin-top:20px;
+  margin-bottom:30px;
   cursor: default;
 }
 .pjHouse{
@@ -89,41 +95,56 @@ margin:20px;
   margin-bottom:40px;
   margin-top:20px;
 }
-/* .firstPj {
+.firstPj {
+  text-decoration: none;
+  margin-top:20px;
   display:flex;
   flex-direction:row;
-  background-color: gray;
+  box-shadow: 0 0 20px rgba(0.75,0.75,0.75,0.75);
+  transition: all .2s ease-in-out;
 }
+.firstPj:hover { transform: scale(1.05); }
 
 .secondPj {
-  display:flex;
-  flex-direction:row-reverse;
-  position:relative;
-  top:-50px;
-}
-
-.thirdPj {
+  text-decoration: none;
+  margin-top:40px;
   display:flex;
   flex-direction:row;
-  position:relative;
-  top:-75px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(0.75,0.75,0.75,0.75);
+  transition: all .2s ease-in-out;
 }
+.secondPj:hover { transform: scale(1.05); }
+
+.thirdPj {
+  text-decoration: none;
+  margin-top:40px;
+  display:flex;
+  flex-direction:row;
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(0.75,0.75,0.75,0.75);
+  transition: all .2s ease-in-out;
+}
+.thirdPj:hover { transform: scale(1.05); }
+
 .descPj {
   color:white;
   display:flex;
+  flex-direction: column;
   align-items: center;
-  font-size:1.2rem;
-} */
+  font-size:1rem;
+  padding-right:1%;
+  cursor: default;
+
+}
 
 .pjImgHouse{
   margin:10px;
-  background: white;
   display:flex;
   flex-direction: column;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  transition: all .2s ease-in-out;
+/*
+*/
 }
-.pjImgHouse:hover { transform: scale(1.1); }
 .pjPic{
   height:200px;
   width:22vw;
@@ -133,12 +154,11 @@ margin:20px;
   margin: 20px;
 }
 .pjaTitle{
-  color:black;
+  color:white;
   text-decoration: none;
-  font-size:1.3rem;
+  font-size:1.4rem;
   padding-top:10px;
-  position:relative;
-  top:-3px;
+
 }
 .pjIcon{
   position:relative;

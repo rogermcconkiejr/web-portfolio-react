@@ -10,60 +10,60 @@ import thunderball from "../Assets/thunderball.png"
 function ProjectHouse() {
 
     return (
-<div className="pjWrapper" id="portfolio">
+        <div className="pjWrapper" id="portfolio">
             <div className="portTitle">Portfolio</div>
-            <div className="pjHouse">
-                <div className="pjImgHouse">
-                    <a href="https://designhubx.com/explore"><img className="pjPic" src={designHub} alt="Design Hub"/></a>
-                    <a href="https://designhubx.com/explore" className="pjaTitle">Design Hub</a>
-                    <p>House and show off your designs. <br /> <br /> Node | React | SQL </p>
-
+                <a href="https://designhubx.com/explore" className="firstPj">
+                    <div className="pjImgHouse">
+                        <a href="https://designhubx.com/explore"><img className="pjPic" src={designHub} alt="Design Hub"/></a>
+                    </div>
+                    
+                    <div className="descPj">
+                    <a href="https://designhubx.com/explore" className="pjaTitle">DesignHub</a>
+                    <hr className="hr2"/>
+                    
+                        <p>On DesignHub, I was able to work on both the front and back end of the application, using Node and React.  Redux was used for state management.  Some notable features that I worked on personally
+                        were the ability to make projects private, along with a collaboration feature that gave users the ability to share their private projects with other users of their
+                        chosing on the site.  I also added a category feature to each project, which allowed users to categorize their projects so that other users could search
+                        by category on the explore page.  
+                        </p>
                         <div className="pjIcon">
-                            <SocialIcon url="https://github.com/Lambda-School-Labs/designhub-be" bgColor="transparent" fgColor="black"/>
+                                <SocialIcon url="https://github.com/Lambda-School-Labs/designhub-be" bgColor="transparent" fgColor="white"/>
                         </div>
-                </div>
-                <div className="pjImgHouse">
-                <a href="https://thunderball-run.gettingonthe.net/"><img className="pjPic" src={thunderball} alt="Thunderball run Project"/></a>
-                <a href="https://thunderball-run.gettingonthe.net/" className="pjaTitle">Thunderball Run</a>
-                <p>Created for gamers. <br /> <br /> Django | React </p>
+                    </div>
+                </a>
+                <a href="https://thunderball-run.gettingonthe.net/" className = "secondPj">
+                    <div className="pjImgHouse">
+                    <a href="https://thunderball-run.gettingonthe.net/"><img className="pjPic" src={thunderball} alt="Thunderball run Project"/></a>
+                    </div>
+                    <div className="descPj">
+                        <a href="https://thunderball-run.gettingonthe.net/" className="pjaTitle">Thunderball Run</a>
+                        <hr className="hr2"/>
+                        <p>Thunderball Run was built using Django and React.  State management was handled by context hooks.  
+                         I was able to contribute to the overall design of the application, along with designing and creating the login and register pages.
+                         I also implemented the back end of the application using Django with a team of engineers. 
+                        </p> 
+                        <div className="pjIcon">
+                        <SocialIcon url="https://github.com/awesome-mud" bgColor="transparent" fgColor="white"/>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://guidr.now.sh/" className="thirdPj">
+                    <div className="pjImgHouse">
+                    <a href="https://guidr.now.sh/"><img className="pjPic" src={guidr} alt="GUIDR Project"/></a>
+                    </div>
+                    <div className="descPj">
+                        <a href="https://guidr.now.sh/" className="pjaTitle">Guidr</a>
+                        <hr className="hr2"/>
+                        <p>Guidr gave me the opportunity to build a backend from scratch, completely on my own.  I built the backend using Node, along with the Express framework.  I built 
+                            out databases that housed user login data, trip data, and profile data for registered guides using SQLite3 and knex.  The rest of my team
+                            built the front end of the application using React, with Redux as the state management system.
+                        </p>
+                        <div className="pjIcon">
+                        <SocialIcon url="https://github.com/Build-Week-FT-Guidr/back-end" bgColor="transparent" fgColor="white"/>
+                        </div>
+                    </div>
                 
-                <div className="pjIcon">
-                    <SocialIcon url="https://github.com/awesome-mud" bgColor="transparent" fgColor="black"/>
-                </div>
-                </div>
-                <div className="pjImgHouse">
-                <a href="https://tipseaseui-roger.rogermcconkiejr.now.sh/"><img className="pjPic" src={tipsease} alt="Tipsease"/></a>
-                <a href="https://tipseaseui-roger.rogermcconkiejr.now.sh/" className="pjaTitle">Tipsease</a>
-                <p>Collect your tips. <br /> <br /> HTML5 | CSS3 </p>
-                <div className="pjIcon">
-                    <SocialIcon url="https://github.com/bw-tipsease/TipsEaseUI-Roger" bgColor="transparent" fgColor="black"/>
-                </div>
-                </div>
-                <div className="pjImgHouse">
-                <a href="https://diy-tracker.rogermcconkiejr.now.sh/login"><img className="pjPic" src={diy} alt="DIY Project"/></a>
-                <a href="https://diy-tracker.rogermcconkiejr.now.sh/login" className="pjaTitle">DIY Tracker</a>
-                <p>Show off your DIY projects. <br /> <br /> React | Context Hooks</p>
-                <div className="pjIcon">
-                    <SocialIcon url="https://github.com/DIY-Tracker/Frontend-Developer/tree/master/diy-tracker" bgColor="transparent" fgColor="black"/>
-                </div>
-                </div>
-                <div className="pjImgHouse">
-                <a href="https://nasa-photo-of-the-day.rogermcconkiejr.now.sh/"><img className="pjPic" src={nasa} alt="NASA photo of the day project"/></a>
-                <a href="https://nasa-photo-of-the-day.rogermcconkiejr.now.sh/" className="pjaTitle">NASA photo of the day</a>
-                <p>Check out the photo of the day. <br /> <br /> React </p>
-                <div className="pjIcon">
-                    <SocialIcon url="https://github.com/rogermcconkiejr/nasa-photo-of-the-day" bgColor="transparent" fgColor="black"/>
-                </div>
-                </div>
-                <div className="pjImgHouse">
-                <a href="https://guidr.now.sh/"><img className="pjPic" src={guidr} alt="GUIDR Project"/></a>
-                <a href="https://guidr.now.sh/" className="pjaTitle">Guidr</a>
-                <p>Find a guide for your next trip. <br /> <br /> Node | SQL </p>
-                <div className="pjIcon">
-                    <SocialIcon url="https://github.com/Build-Week-FT-Guidr/back-end" bgColor="transparent" fgColor="black"/>
-                </div>
-                </div>
-            </div>
+                </a>
         </div>
     )
 }
