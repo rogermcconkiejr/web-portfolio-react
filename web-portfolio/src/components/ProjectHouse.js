@@ -2,9 +2,6 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 
 import designHub from "../Assets/designHub.png"
-import tipsease from "../Assets/tipsease.png"
-import diy from "../Assets/diy.png"
-import nasa from "../Assets/nasa.png"
 import guidr from "../Assets/guidr.png"
 import thunderball from "../Assets/thunderball.png"
 function ProjectHouse() {
